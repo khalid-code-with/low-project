@@ -45,6 +45,7 @@
         </section>
         {{-- end home bannere here --}}
 
+        {{-- welcome low section start --}}
         <style>
             .law-section {
                 padding: 60px 0;
@@ -82,9 +83,35 @@
                 color: #555;
             }
 
-            @media (max-width: 991.98px) {
+            @media (max-width: 991px) {
                 .law-image {
                     margin-top: 30px;
+                }
+
+                .law-content,
+                .law-content h1,
+                .law-content p,
+                .law-icon-text h5,
+                .law-icon-text p {
+                    text-align: left !important;
+                }
+            }
+
+            @media (min-width: 992px) {
+                .law-content {
+                    padding-right: 30px;
+                }
+
+                .law-image {
+                    padding-left: 30px;
+                }
+
+                .law-image img {
+                    max-height: 530px;
+                    width: auto;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: 0;
                 }
             }
         </style>
@@ -94,7 +121,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <!-- Left Content -->
-                    <div class="col-lg-7 law-content">
+                    <div class="col-lg-6 law-content">
                         <h1>Welcome to the law offices of Allan Rouben.</h1>
                         <p>
                             I have been practicing law in Toronto for over 35 years and I handle all kinds of litigation
@@ -102,6 +129,7 @@
                             long-term disability claims, professional negligence cases, shareholder and partnership
                             disputes, and some criminal cases.
                         </p>
+                        <hr />
 
                         <div class="row law-icons">
                             <div class="col-md-6 text-center text-md-start mb-4">
@@ -122,15 +150,13 @@
                     </div>
 
                     <!-- Right Image -->
-                    <div class="col-lg-5 text-center law-image">
+                    <div class="col-lg-6 text-center law-image">
                         <img src="{{ asset('images/layour-img.jpg') }}" alt="Lawyer Image" class="img-fluid" />
                     </div>
                 </div>
             </div>
         </section>
-
-
-
+        {{-- end welcome low section start --}}
     </body>
 
     </html>
