@@ -1,0 +1,171 @@
+/* =====  Home banner css start here ######## */
+
+.layour-home-banner {
+    background-image: url('/images/home-banner-img.png') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -1px;
+    padding: 60px 0 20px 0;
+    color: white;
+    position: relative;
+    height: 550px;
+
+}
+
+.layour-home-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.layour-home-banner .container {
+    position: relative;
+    z-index: 1;
+}
+
+.layour-home-banner h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #d50000;
+    margin-bottom: 20px;
+}
+
+.layour-home-banner h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.layour-home-banner p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.layour-home-banner .btn-consultation {
+    background-color: #d50000;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    margin-bottom: 70px;
+    transition: background-color 0.3s;
+}
+
+.layour-home-banner .change-banner-color {
+    color: red !important;
+}
+
+.layour-home-banner .btn-consultation:hover {
+    background-color: #b71c1c;
+}
+
+.layour-home-banner .contact-section {
+    margin-top: 90px;
+}
+
+.layour-home-banner .contact-section hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ddd2d2;
+    margin-bottom: 20px;
+}
+
+.layour-home-banner .contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.layour-home-banner .contact-left,
+.layour-home-banner .contact-right {
+    flex: 1;
+    min-width: 200px;
+}
+
+.layour-home-banner .contact-section p {
+    margin-bottom: 9px;
+    font-size: 1rem;
+}
+
+.layour-home-banner .contact-section a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.layour-home-banner .contact-right {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .layour-home-banner {
+        padding: 40px 0 20px;
+    }
+
+    .layour-home-banner h1 {
+        font-size: 1.1rem;
+    }
+
+    .layour-home-banner .contact-section {
+        margin-top: 60px;
+    }
+
+    .layour-home-banner h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .layour-home-banner p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    .layour-home-banner .btn-consultation {
+        margin-bottom: 40px;
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .layour-home-banner .contact-content {
+        flex-direction: column;
+    }
+
+    .layour-home-banner .contact-right {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .layour-home-banner .contact-section p {
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+    }
+
+    .layour-home-banner .contact-section a {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .moving-left-side {
+        margin-right: 120px;
+    }
+
+    .moving-left-book {
+        margin-right: 30px;
+    }
+
+    .leftside-content-apply {
+        margin-left: 30px;
+    }
+}
+
+/* =====  end Home banner css start here ######## */
