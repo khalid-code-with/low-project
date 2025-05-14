@@ -1,4 +1,4 @@
-/* =====  Home banner css start here ######## */
+/* =====  Home banner css start here home page css start ######## */
 
 .layour-home-banner {
     background-image: url('/images/home-banner-img.png') !important;
@@ -11,6 +11,7 @@
     color: white;
     position: relative;
     height: 550px;
+
 
 }
 
@@ -169,3 +170,1086 @@
 }
 
 /* =====  end Home banner css start here ######## */
+
+
+/* welcome to the low section start here  */
+.law-section {
+    padding: 130px 0 130px 0;
+}
+
+.law-content h1 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #453E3E;
+}
+
+.law-content p {
+    font-size: 1.1rem;
+    margin-top: 7px;
+    color: #453E3E;
+}
+
+.law-icons {
+    margin-top: 40px;
+}
+
+.law-icon-img {
+    margin-top: 17px;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.law-icon-text h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #453E3E;
+}
+
+.hr-colorchange {
+    color: #453E3E;
+}
+
+.law-icon-text p {
+    font-size: 15px;
+    color: #453E3E;
+}
+
+@media (max-width: 991px) {
+    .law-image {
+        margin-top: 50px;
+    }
+
+    .law-content,
+    .law-content h1,
+    .law-content p,
+    .law-icon-text h5,
+    .law-icon-text p {
+        text-align: left !important;
+    }
+
+    /* Mobile-specific adjustments */
+    @media (max-width: 767px) {
+        .law-section {
+            padding: 70px 0;
+        }
+
+        .law-content h1 {
+            font-size: 1.8rem;
+            line-height: 1.3;
+        }
+
+        .law-content p {
+            font-size: 1rem;
+        }
+
+        .law-icons {
+            margin-top: 30px;
+        }
+
+        .law-icon-img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 15px;
+            align-items: start;
+            display: flex;
+        }
+
+        .law-icon-text h5 {
+            font-size: 1.1rem;
+        }
+
+        .law-icon-text p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .law-content {
+        padding-right: 30px;
+    }
+
+    .law-image {
+        padding-left: 30px;
+    }
+
+    .law-image img {
+        max-height: 530px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+/* end welcome to the low section here */
+
+
+
+/* start css book consulator*/
+.Book-Free-consulation {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f3f4;
+
+    padding: 0;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.Book-Free-consulation .container {
+    border: 1px solid #000;
+    padding: 54px;
+    padding-bottom: 60px;
+    max-width: 1140px;
+}
+
+.Book-Free-consulation h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #2B161B;
+    margin: 0;
+}
+
+.Book-Free-consulation p {
+    font-size: 17px;
+    color: #453E3E;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.Book-Free-consulation .btn-consultation {
+    background-color: #007A33;
+    color: #fff;
+    padding: 8px 27px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 2px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.Book-Free-consulation .change-colorbutton {
+    background-color: red !important;
+}
+
+.Book-Free-consulation .change-colorbutton:hover {
+    background-color: #000000 !important;
+
+}
+
+.Book-Free-consulation .btn-consultation:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.Book-Free-consulation .row {
+    align-items: flex-start;
+}
+
+
+@media (max-width: 991px) {
+    .Book-Free-consulation .container {
+        padding: 30px 20px;
+        margin: 0 15px;
+        width: auto;
+    }
+
+    .Book-Free-consulation .col-md-4 {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .Book-Free-consulation h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .Book-Free-consulation p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+
+    .Book-Free-consulation .btn-consultation {
+        width: auto;
+        display: inline-block;
+        padding: 10px 30px;
+    }
+
+    .Book-Free-consulation .text-md-end {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .Book-Free-consulation .container {
+        margin: 0 10px;
+        padding: 25px 15px;
+    }
+
+    .Book-Free-consulation h2 {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+
+    .Book-Free-consulation .row {
+        padding: 11px;
+    }
+
+    .Book-Free-consulation .btn-consultation {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+.Book-Free-consulation .container.removetopbottomborder {
+    border: none;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+/* end css book consulator
+
+
+
+/* logoes css start here*/
+.Legal-Societies {
+    padding: 25px 0 120px 0;
+    background: #FFFFFF;
+}
+
+.Legal-Societies .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.Legal-Societies-title {
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 40px;
+    color: #353032;
+    font-weight: 600;
+}
+
+
+.Legal-Societies-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.Legal-Societies-logo-container {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Legal-Societies-logo {
+    height: 240px;
+    width: 246px;
+    max-width: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .Legal-Societies {
+        padding: 40px 0 80px 0;
+    }
+
+    .Legal-Societies-title {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    .Legal-Societies-logo {
+        height: 140px;
+        width: 140px;
+    }
+
+    .Legal-Societies-logos {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .Legal-Societies-logo-container {
+        flex: 0 0 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+
+    .fifth-logo {
+        flex: 0 0 140px !important;
+        margin: 10px auto 0;
+    }
+}
+
+/* end logoes css here */
+
+
+/* professional and exprience section tronto lawyer */
+
+.experience-section-layout {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 0 120px;
+}
+
+.experience-section-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/home-img/exprience-image.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.experience-section-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.experience-section-content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.experience-section-left {
+    flex: 1;
+}
+
+.experience-section-left h1 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #e53935;
+    margin-bottom: 28px;
+    line-height: 1.2;
+}
+
+.experience-section-left h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+}
+
+.experience-points {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience-point h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.point-number {
+    color: #d8d0d0;
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.experience-point p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFFFFF !important;
+    margin-left: 41px;
+}
+
+
+.experience-section-right {
+    flex: 1;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+}
+
+.stat-box {
+    border: 0.10px solid #656262;
+    padding: 30px;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.stat-label {
+    font-size: 17px;
+    color: #e53935;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 992px) {
+    .experience-section-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .experience-section-left h1 {
+        font-size: 17px;
+    }
+
+    .experience-section-left h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-section-layout {
+        padding: 60px 0;
+        min-height: auto;
+    }
+
+    .experience-section-left h2 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .experience-point h3 {
+        font-size: 20px;
+    }
+
+    .experience-point p {
+        font-size: 16px;
+        margin-left: 25px;
+    }
+
+    .stat-box {
+        padding: 20px 15px;
+    }
+
+    .stat-number {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .stat-label {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-section-left h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .experience-points {
+        gap: 20px;
+    }
+
+    .experience-point h3 {
+        font-size: 18px;
+    }
+
+    .experience-point p {
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .point-number {
+        color: #d8d0d0;
+        font-weight: 600;
+        font-size: 22px;
+
+    }
+
+    .stat-box {
+        padding: 25px 48px;
+    }
+}
+
+@media (max-width: 400px) {
+    .experience-section-left h1 {
+        font-size: 16px;
+    }
+
+    .experience-section-left h2 {
+        font-size: 22px;
+    }
+
+    .experience-point h3 {
+        font-size: 17px;
+    }
+}
+
+/* end here professional and exprience section  */
+
+
+/* why choose  section css start here */
+.why-choose-layout {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 0 100px;
+    background-color: #ffffff;
+}
+
+.why-choose-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+        url('/images/home-img/why-choose-img.jpg') no-repeat center/cover;
+    z-index: 0;
+}
+
+.why-choose-layout .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.why-choose-content {
+    display: flex;
+    width: 100%;
+}
+
+.why-choose-left {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0;
+}
+
+.why-choose-right {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.mobile-only-content {
+    display: none;
+}
+
+.desktop-content {
+    margin-bottom: 40px;
+}
+
+.why-choose-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+    margin-bottom: 27px;
+    line-height: 1.2;
+}
+
+.why-choose-subtitle {
+    font-size: 32px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.why-choose-divider {
+    height: 3px;
+    width: 100px;
+    background-color: #c00;
+    margin: 30px 0;
+}
+
+.testimonial-box {
+    margin-bottom: 20px;
+}
+
+.testimonial-quote {
+    margin-bottom: 20px;
+}
+
+.quote-icon {
+    width: 50px;
+    height: auto;
+}
+
+.testimonial-text {
+    font-size: 19px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.testimonial-author {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.author-name {
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.author-location {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.add-margin-botoom {
+    margin-bottom: 14px;
+}
+
+.testimonial-divider {
+    height: 0.55px;
+    width: 100%;
+    background-color: #c00;
+    margin: 30px 0;
+}
+
+
+@media (max-width: 992px) {
+    .why-choose-layout {
+        padding: 60px 0;
+        min-height: auto;
+    }
+
+    .why-choose-content {
+        flex-direction: column;
+    }
+
+    .why-choose-left {
+        flex: 1;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .mobile-only-content {
+        display: block;
+        text-align: center;
+    }
+
+    .desktop-content {
+        display: none;
+    }
+
+    .why-choose-right {
+        flex: 1;
+        max-width: 100%;
+        margin-top: 0;
+        padding: 0 3px;
+    }
+
+    .why-choose-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: start
+    }
+
+    .why-choose-subtitle {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .testimonial-box {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .quote-icon {
+        width: 50px;
+    }
+
+    .testimonial-author {
+        margin-bottom: 20px;
+    }
+
+    .testimonial-divider {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .why-choose-layout {
+        padding: 40px 0;
+    }
+
+    .why-choose-title {
+        font-size: 16px;
+    }
+
+    .why-choose-subtitle {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .testimonial-text {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .quote-icon {
+        width: 40px;
+        margin-left: -4px;
+    }
+
+    .testimonial-divider {
+        margin: 15px 0;
+    }
+
+    .why-choose-layout {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 60px 0 80px;
+        background-color: #ffffff;
+    }
+}
+
+/* end css why choose alloun */
+
+
+/* practice area css start here */
+.practice-areas-section {
+    padding: 20px 0 110px;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #453E3E;
+}
+
+.practice-areas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.practice-area-box {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0;
+}
+
+.practice-area-card {
+    height: 100%;
+    border: 0.1px solid #e0e0e0;
+    padding: 28px;
+    transition: all 0.3s ease;
+    margin: 0;
+    background: #f8f9fa;
+}
+
+.practice-area-icon {
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.practice-area-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.practice-area-title {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #453E3E;
+    text-align: start;
+}
+
+.practice-area-description {
+    font-size: 17px;
+    line-height: 1.4;
+    color: #453E3E;
+    text-align: start;
+    font-weight: 400;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 992px) {
+    .practice-area-box {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .practice-area-card {
+        padding: 22px;
+    }
+
+    .practice-area-title {
+        font-size: 18px;
+    }
+
+    .practice-area-description {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 28px;
+    }
+
+    .practice-area-icon img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 576px) {
+    .practice-areas-section {
+        padding: 50px 0;
+    }
+
+    .practice-area-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .practice-area-card {
+        padding: 25px;
+    }
+
+    .practice-area-title {
+        font-size: 17px;
+    }
+
+    .practice-area-description {
+        font-size: 15px;
+    }
+}
+
+/* end practice area css here */
+/* ======= @@@@@home page css end her ========= */
+
+
+
+/* ======= Abouts page css start here@@@@@@@@ */
+
+
+
+/* abouts banner css start here */
+.abouts-banner {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.abouts-banner-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.abouts-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.abouts-banner-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.abouts-banner h1 {
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+@media (max-width: 992px) {
+    .abouts-banner {
+        height: 350px;
+    }
+
+    .abouts-banner h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .abouts-banner {
+        height: 300px;
+    }
+
+    .abouts-banner h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .abouts-banner {
+        height: 250px;
+    }
+
+    .abouts-banner h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+}
+
+/* end abouts banner css here */
+
+/* contact button section start css */
+.contacts-layout-section {
+    padding: 95px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.contacts-layout-content {
+    max-width: 100%;
+}
+
+.contacts-layout-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #453E3E;
+    margin-bottom: 25px;
+}
+
+.consultation-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    border: 1px solid red;
+}
+
+.consultation-btn:hover {
+    background-color: #FFFFFF;
+    color: red;
+}
+
+
+@media (max-width: 576px) {
+    .contacts-layout-section {
+        padding: 70px 0;
+
+    }
+
+    .contacts-layout-title {
+        font-size: 25px;
+
+        margin-bottom: 20px;
+        padding: 0 10px;
+
+    }
+
+    .consultation-btn {
+        padding: 10px 20px;
+
+    }
+}
+
+/* contact button section start css */
+
+/* @@@@@@==== end abouts page css here ======== @@@@@@@@@@ */

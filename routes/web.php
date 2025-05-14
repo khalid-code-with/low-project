@@ -1,16 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// Route::get('/', function () {
-//     return view('include.header');
-// });
+use App\Http\Controllers\Frontend\HomeController;
 
 
-Route::get('/', function () {
-    return view('partials.home');
-});
+
+// home page
+Route::get('/', [HomeController::class, 'homepage'])->name('home');
+
+// abouts page
+Route::get('/abouts', [HomeController::class, 'aboutapage'])->name('abouts');

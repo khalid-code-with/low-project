@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
         }
 
         .advocate-website.container {
@@ -32,8 +32,9 @@
         }
 
         .navbar.shrink {
-            padding: 3px 0;
+            padding: 14px 0 !important;
         }
+
 
         .navbar-nav .nav-link {
             color: #FFFFFF !important;
@@ -159,7 +160,7 @@
         .dropdown-item {
             color: white !important;
             font-weight: 600;
-            padding: 10px 20px;
+            padding: 15px 25px !important;
         }
 
         .dropdown-item:hover {
@@ -194,6 +195,20 @@
         .navbar-brand-text span:last-child {
             font-size: 1.2rem;
             line-height: 1.2;
+        }
+
+        /* remove bydefault bootstrap green shadow */
+        .navbar .dropdown-toggle:focus,
+        .navbar .dropdown-toggle:active,
+        .navbar .dropdown-toggle:hover {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+
+        .navbar .dropdown-menu .dropdown-item:focus,
+        .navbar .dropdown-menu .dropdown-item:active {
+            outline: none !important;
+            box-shadow: none !important;
         }
     </style>
 </head>
@@ -301,6 +316,17 @@
                     }, 300);
                 });
             });
+        });
+    </script>
+    <script>
+        // navbar decrese padding on scrolling
+        window.addEventListener("scroll", function() {
+            const navbar = document.querySelector(".navbar");
+            if (window.scrollY > 170) {
+                navbar.classList.add("shrink");
+            } else {
+                navbar.classList.remove("shrink");
+            }
         });
     </script>
 </body>

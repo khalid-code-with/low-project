@@ -12,6 +12,7 @@
         .footer {
             padding: 70px 0 45px;
             background-color: #2c1315;
+            font-family: 'Roboto', sans-serif;
         }
 
         .footer .logo {
@@ -61,6 +62,8 @@
 
         .footer .btn-red:hover {
             background-color: #2c1315;
+            border: 0.4px solid #555;
+            color: #FFFFFF;
         }
 
         hr.full-width {
