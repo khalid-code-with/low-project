@@ -1252,4 +1252,382 @@
 
 /* contact button section start css */
 
+
+/* start css Defining Success 35 Years Of Experience Memberships​​ */
+.criminal-layour-section {
+    padding: 30px 0;
+    background: #f7f2f4;
+}
+
+.criminal-layour-section .feature-icon img {
+    margin-top: 13px;
+    width: 45px;
+    height: 45px;
+}
+
+.criminal-layour-section .container {
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.criminal-layour-section .feature-box {
+    padding: 30px 22px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.criminal-layour-section .feature-icon {
+    margin-bottom: 15px;
+}
+
+.criminal-layour-section h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #2B161B;
+}
+
+.criminal-layour-section p {
+    color: #453E3E;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.criminal-layour-section .red-link {
+    color: #EF4D48;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.criminal-layour-section .red-link:hover {
+    text-decoration: underline;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 767px) {
+    .criminal-layour-section .feature-box {
+        padding: 25px 20px;
+        margin-bottom: -21px;
+    }
+
+    .criminal-layour-section .container {
+        border-radius: 4px;
+    }
+
+    .criminal-layour-section h3 {
+        font-size: 18px;
+    }
+
+    .criminal-layour-section p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .criminal-layour-section {
+        padding: 25px 10px;
+    }
+
+    .criminal-layour-section .feature-box {
+        padding: 10px 15px;
+    }
+
+    .criminal-layour-section .container {
+        padding-bottom: 30px !important;
+
+    }
+}
+
+/* end Defining Success 35 Years Of Experience Memberships​​ */
+
+
+
+/* Abouts the rouban briefly sammery css */
+/* About The Layout Content Styles (UNCHANGED FOR DESKTOP) */
+.abouts-the-layour-content {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.abouts-the-layour-content .about-content {
+    padding-right: 30px;
+}
+
+.abouts-the-layour-content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #2B161B;
+}
+
+.abouts-the-layour-content .section-title-link {
+    color: #EF4D48;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.abouts-the-layour-content .section-title-link:hover {
+    color: #EF4D48;
+}
+
+.abouts-the-layour-content .title-divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin-bottom: 30px;
+}
+
+.abouts-the-layour-content h3 {
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    color: #2B161B;
+}
+
+.abouts-the-layour-content p {
+    color: #000000;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.abouts-the-layour-content .content-divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 35px 0;
+}
+
+.abouts-the-layour-content blockquote {
+    font-style: italic;
+    color: #2B161B;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 20px;
+    border-left: 3px solid #EF4D48;
+}
+
+.abouts-the-layour-content .about-image img {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile-specific adjustments ONLY */
+@media (max-width: 991.98px) {
+    .abouts-the-layour-content .about-content {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .abouts-the-layour-content .about-image {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .abouts-the-layour-content h3 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .abouts-the-layour-content p {
+        font-size: 15px;
+        margin-bottom: 30px;
+        color: #000000;
+    }
+
+    .abouts-the-layour-content blockquote {
+        font-size: 16px;
+    }
+
+    .abouts-the-layour-content .content-divider {
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .abouts-the-layour-content {
+
+        padding: 70px 0 30px 0;
+    }
+
+    .abouts-the-layour-content h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .abouts-the-layour-content h2 {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 31px;
+    }
+
+    .abouts-the-layour-content .about-image img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* end abouts the rouban brienfy sammery css */
+
+/* start css Committed To Helping Clients Succeed */
+
+.Committed-To-Helping {
+    padding: 80px 0 60px 0;
+    background: url(' /images/abouts-img/parliment-img.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+    .Committed-To-Helping .moving-left-sedes {
+        margin-left: 11px;
+    }
+}
+
+
+.Committed-To-Helping::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+}
+
+.Committed-To-Helping .container-fluid {
+    position: relative;
+}
+
+.Committed-To-Helping .helping-content {
+    padding: 40px;
+    padding: 40px 0 40 0px;
+    color: #FFFFFF;
+}
+
+.Committed-To-Helping h2 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 27px;
+    color: #EF4D48;
+}
+
+.Committed-To-Helping .title-divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin-bottom: 30px;
+}
+
+.movin-divider-at-bottom {
+    margin-top: 42px;
+    margin-left: 70px !important;
+}
+
+.Committed-To-Helping h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.Committed-To-Helping h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.Committed-To-Helping p {
+    color: #FFFFFF;
+    line-height: 1.6;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 59px;
+
+}
+
+.Committed-To-Helping .content-divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 38px 0;
+    margin-left: 70px !important;
+}
+
+.Committed-To-Helping .icon-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.Committed-To-Helping .item-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 4px;
+    margin-top: -4px;
+    margin-left: -10px;
+}
+
+
+@media (max-width: 991px) {
+    .Committed-To-Helping .col-lg-6:first-child {
+        display: none;
+    }
+
+    .Committed-To-Helping .helping-content {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .Committed-To-Helping {
+        padding: 60px 0;
+    }
+
+    .Committed-To-Helping h2 {
+        font-size: 16px;
+    }
+
+    .Committed-To-Helping h3 {
+        font-size: 22px;
+    }
+
+    .Committed-To-Helping p {
+        text-align: left;
+    }
+
+    .small-divesfixed {
+        background: red;
+        margin-left: 30px;
+    }
+
+    .Committed-To-Helping .icon-title {
+        margin-left: 0 !important;
+    }
+
+    .Committed-To-Helping .content-divider,
+    .Committed-To-Helping .title-divider {
+        margin-left: 55px !important;
+    }
+
+    .Committed-To-Helping .item-icon {
+        margin-left: -11px !important;
+    }
+
+    .Committed-To-Helping p {
+        padding-left: 55px;
+    }
+}
+
+/*end css Committed To Helping Clients Succeed */
+
 /* @@@@@@==== end abouts page css here ======== @@@@@@@@@@ */
