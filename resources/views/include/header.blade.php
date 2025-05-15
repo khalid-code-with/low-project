@@ -216,7 +216,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="advocate-website container px-0">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="images/logo-company.png" alt="Allan Rouben Logo">
                 <div class="navbar-brand-text"></div>
             </a>
