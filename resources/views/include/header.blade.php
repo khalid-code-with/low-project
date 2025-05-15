@@ -253,7 +253,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
+                        <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link contact-btn-changeing" id="contact_button">BOOK FREE CONSULTATION</a>
