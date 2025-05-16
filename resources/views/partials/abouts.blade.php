@@ -1,6 +1,6 @@
 @extends('include.master')
 
-@section('title', 'Abouts Page')
+@section('title', 'Abouts')
 
 @section('body-section')
 
@@ -88,7 +88,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-content">
-                            <h2><a href="#" class="section-title-link">Professional And Experienced Toronto Lawyer</a>
+                            <h2><a href="{{ url('/') }}" class="section-title-link">Professional And Experienced
+                                    Toronto Lawyer</a>
                             </h2>
                             <h3>About Allan Rouben</h3>
                             <p>I graduated from McGill University in Montreal with a B.A. in 1982 and obtained my law degree
@@ -179,7 +180,7 @@
             <div class="container">
                 <div class="contacts-layout-content">
                     <h2 class="contacts-layout-title">Contact Allan Rouben Today</h2>
-                    <a href="#" class="consultation-btn">BOOK A FREE CONSULTATION</a>
+                    <a href="{{ route('contact') }}" class="consultation-btn">BOOK A FREE CONSULTATION</a>
                 </div>
             </div>
         </section>

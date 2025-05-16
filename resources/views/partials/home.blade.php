@@ -1,6 +1,6 @@
 @extends('include.master')
 
-@section('title', 'Home Page')
+@section('title', 'Home')
 
 @section('body-section')
 
@@ -17,6 +17,7 @@
 
     <body>
 
+
         {{-- home banner start here --}}
         <section class="layour-home-banner">
             <div class="container">
@@ -25,7 +26,8 @@
                 <p>Skilled in Appeals and Litigation including Employment Law, Personal Injury, Professional Negligence
                     &
                     Insurance Cases</p>
-                <button class="btn btn-consultation">BOOK A FREE CONSULTATION</button>
+
+                <button class="btn btn-consultation"><a href="{{ route('contact') }}">BOOK A FREE CONSULTATION </a></button>
 
                 <div class="contact-section">
                     <hr>
@@ -64,14 +66,16 @@
 
                         <div class="row law-icons">
                             <div class="col-md-6 text-center text-md-start mb-4">
-                                <img src="{{ asset('images/flag.png') }}" alt="Experience Icon" class="law-icon-img" />
+                                <img src="{{ asset('images/home-img/home-icons-exprinet.png') }}" alt="Experience Icon"
+                                    class="law-icon-img" />
                                 <div class="law-icon-text">
                                     <h5>35 Years Of Experience</h5>
                                     <p>Extensive knowledge and expertise in legal matters.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 text-center text-md-start mb-4">
-                                <img src="{{ asset('images/flag.png') }}" alt="Success Icon" class="law-icon-img" />
+                                <img src="{{ asset('images/home-img/success-icon.png') }}" alt="Success Icon"
+                                    class="law-icon-img" />
                                 <div class="law-icon-text">
                                     <h5>Defining Success</h5>
                                     <p>Vigorously and persistently advocating for your legal rights in Toronto courts.</p>
@@ -103,7 +107,7 @@
                             provide guidance on the best next steps.</p>
                     </div>
                     <div class="col-md-4 text-md-end">
-                        <a href="#" class="btn btn-consultation">BOOK A FREE CONSULTATION</a>
+                        <a href="{{ route('contact') }}" class="btn btn-consultation">BOOK A FREE CONSULTATION</a>
                     </div>
                 </div>
             </div>

@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Allan Rouben Footer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title></title>
+
 
     <style>
         .footer {
@@ -53,7 +52,6 @@
         .footer .btn-red {
             background-color: red;
             color: white;
-            border: none;
             border-radius: 2px;
             font-weight: 500;
             padding: 6px 12px;
@@ -62,7 +60,6 @@
 
         .footer .btn-red:hover {
             background-color: #2c1315;
-            border: 0.4px solid #555;
             color: #FFFFFF;
         }
 
@@ -136,8 +133,9 @@
         <div class="container">
             <div class="row text-white">
                 <div class="col-md-3 mb-4">
-
-                    <img src="images/logo-company.png" alt="Logo" class="logo img-fluid" />
+                    <a href="{{ url('/') }}">
+                        <img src="images/logo-company.png" alt="Logo" class="logo img-fluid" />
+                    </a>
                     <div class="social-icons d-flex mt-3">
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -164,7 +162,9 @@
 
                 <div class="col-md-3 mb-4">
                     <div class="mb-4">
-                        <button class="btn btn-red">BOOK A FREE CONSULTATION</button>
+                        <a href="{{ route('contact') }}">
+                            <button class="btn btn-red">BOOK A FREE CONSULTATION</button>
+                        </a>
                     </div>
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms & Conditions</a>

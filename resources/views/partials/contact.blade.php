@@ -1,6 +1,6 @@
 @extends('include.master')
 
-@section('title', 'Abouts Page')
+@section('title', 'Contact Us')
 
 @section('body-section')
 
@@ -11,7 +11,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title></title>
     </head>
 
     <body>
@@ -131,8 +131,6 @@
                     </iframe>
                 </div>
         </section>
-        {{-- end map section --}}
-
     </body>
 
     </html>
