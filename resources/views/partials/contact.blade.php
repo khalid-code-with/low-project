@@ -15,6 +15,7 @@
     </head>
 
     <body>
+
         {{-- contacts banner --}}
         <section class="contact-banner">
             <img src="{{ asset('images/contacts-image/contact-banner-img.jpg') }}" alt="Contact Allan"
@@ -72,27 +73,27 @@
                             </div>
 
                             <div class="section-title">
-                                <img src="{{ asset('images/contacts-image/contacts-icon.png') }}" alt="Contact Details Icon"
+                                <img src="{{ asset('images/contacts-image/contact-icon.png') }}" alt="Contact Details Icon"
                                     class="section-icon">
-                                <h4>Contact Details</h4>
+                                <h4 class="contact-info-left">Contact Details</h4>
                             </div>
 
-                            <div class="contact-detail">
+                            <div class="contact-detail mb-4">
                                 <p><b class="increse-font-size">Address:</b><br>70 Bond Street Suite 200<br>Toronto,
                                     Ontario, M5B 1X3</p>
                             </div>
 
-                            <div class="contact-detail" style="margin-bottom: 10px;">
+                            <div class="contact-detail" style="margin-bottom:0px;">
                                 <p><b class="increse-font-size">Number:</b> <a href="tel:4163605444" class="red-link">416
                                         360-5444</a></p>
                             </div>
 
-                            <div class="contact-detail" style="margin-bottom: 10px;">
+                            <div class="contact-detail" style="margin-bottom:0px;">
                                 <p><b class="increse-font-size">Fax:</b> <a href="tel:4163657702" class="red-link">416
                                         365-7702</a></p>
                             </div>
 
-                            <div class="contact-detail" style="margin-bottom: 10px;">
+                            <div class="contact-detail" style="margin-bottom:0px;">
                                 <p><b class="increse-font-size">Email:</b> <a href="mailto:allan@allanrouben.com"
                                         class="red-link">allan@allanrouben.com</a></p>
                             </div>
@@ -101,7 +102,7 @@
                                 <div class="section-title">
                                     <img src="{{ asset('images/home-img/handshake-icon.png') }}" alt="Follow Allan Icon"
                                         class="section-icon">
-                                    <h5>Follow Allan</h5>
+                                    <h5 class="moving-leftsmall-devices">Follow Allan</h5>
                                 </div>
                                 <div class="social-icons">
                                     <a href="#" class="social-icon" style="margin-right: 25px;">
@@ -117,6 +118,21 @@
                 </div>
             </div>
         </section>
+
+
+        {{-- map  section --}}
+        <section class="map-section">
+            <div class="container">
+                <div class="law-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25239.270619089377!2d-122.44065652568361!3d37.745283100000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2def4ff7cd%3A0x3b8fcf69b54821ae!2sHayasa%20Flooring%20Design%2C%20Inc!5e0!3m2!1sen!2sin!4v1747370606260!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+        </section>
+        {{-- end map section --}}
+
     </body>
 
     </html>
