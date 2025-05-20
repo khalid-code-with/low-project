@@ -1,18 +1,28 @@
 /* =====  Home banner css start here home page css start ######## */
-
 .layour-home-banner {
-    background-image: url('/images/home-banner-img.png') !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
     width: 100%;
     margin-top: -1px;
     padding: 60px 0 20px 0;
     color: white;
-    position: relative;
     height: 550px;
+    overflow: hidden;
+}
 
+.banner-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
 
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .layour-home-banner::before {
@@ -23,13 +33,15 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 
 .layour-home-banner .container {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
+/* Rest of your existing CSS remains exactly the same */
 .layour-home-banner h1 {
     font-size: 1.3rem;
     font-weight: 500;
@@ -67,7 +79,6 @@
 .btn-consultation a {
     color: inherit !important;
     text-decoration: none !important;
-
 }
 
 .layour-home-banner .btn-consultation:hover {
@@ -296,12 +307,9 @@
 
 /* start css book consulator*/
 .Book-Free-consulation {
-    font-family: 'Roboto', sans-serif;
     background-color: #f6f3f4;
-
     padding: 0;
-    border-top: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
+
 }
 
 .Book-Free-consulation .container {
@@ -2023,6 +2031,16 @@
     background-color: #f9f5f7;
 }
 
+/* For small devices only */
+@media (max-width: 767px) {
+
+    .map-section .container,
+    .map-section .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 /* end map css here */
 /* @@@@@@==== end contacts page css here ======== @@@@@@@@@@ */
 
@@ -2302,3 +2320,745 @@
 /* end blog designer css */
 
 /* @@@@@@==== end  Blogs page css  here  ======== @@@@@@@@@@ */
+
+
+/* 4. @@@@@@==== start  Appleas page css  here  ======== @@@@@@@@@@ */
+
+/* appleas bannere css */
+.appeals-banner {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.appeals-banner-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.appeals-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.appeals-banner-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.appeals-banner h1 {
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+@media (max-width: 992px) {
+    .appeals-banner {
+        height: 330px;
+    }
+
+    .appeals-banner h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .appeals-banner {
+        height: 300px;
+    }
+
+    .appeals-banner h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .appeals-banner {
+        height: 250px;
+    }
+
+    .appeals-banner h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+}
+
+/*  end appleas bannere css */
+
+
+/* about the aplease content css start here */
+.Apples-section-layout {
+
+    padding: 60px 0 41px 0;
+    background-color: #f6f3f4;
+
+}
+
+.Apples-section-layout .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.Apples-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 13px;
+}
+
+.Apples-left {
+    flex: 1 1 30%;
+}
+
+.Apples-right {
+    flex: 1 1 65%;
+}
+
+.Apples-left h2 {
+    font-size: 32px;
+    color: #2B161B;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.Apples-right p {
+    font-size: 17px;
+    color: #453E3E;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.highlight-red {
+    color: red;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .Apples-section-layout {
+        padding: 57px 0 25px 0;
+    }
+
+    .Apples-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Apples-left,
+    .Apples-right {
+        flex: 1 1 100%;
+    }
+
+    .Apples-left h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .Apples-right p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 32px !important;
+    }
+
+    .Apples-gap {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .Apples-left h2 {
+        font-size: 24px;
+    }
+
+    .Apples-right p {
+        font-size: 15px;
+    }
+}
+
+/* end about the apleas section */
+
+/* css start second section of content Why You Need An */
+.apples-contentss {
+    padding: 60px 0;
+    background-color: #f6f3f4;
+}
+
+.apples-contentss .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.apples-contentss .apples-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 13px;
+}
+
+.apples-contentss .apples-left {
+    flex: 1 1 30%;
+}
+
+.apples-contentss .apples-right {
+    flex: 1 1 65%;
+}
+
+.apples-contentss .apples-left h2 {
+    font-size: 32px;
+    color: #453E3E;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.apples-contentss .apples-right p {
+    font-size: 17px;
+    color: #453E3E;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.apples-contentss .apples-appeals-list {
+    font-size: 17px;
+    color: #453E3E;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.apples-contentss .apples-appeals-list li {
+    margin-bottom: 0px;
+}
+
+.apples-contentss .apples-red-link {
+    color: #EF4D48;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.red-lind-layour {
+    text-decoration: none;
+    color: #EF4D48;
+}
+
+.apples-contentss .apples-red-link:hover {
+    color: #f2524c;
+}
+
+.apples-contentss .apples-consultation-btn {
+    background-color: #D90700;
+    color: #fff;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 2px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    margin-left: 34%;
+}
+
+.margin-bottom-appleas {
+    margin-bottom: 30px !important;
+}
+
+.apples-contentss .apples-consultation-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .apples-contentss {
+        padding: 55px 0 30px 0;
+    }
+
+    .apples-contentss .apples-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .apples-contentss .apples-left,
+    .apples-contentss .apples-right {
+        flex: 1 1 100%;
+    }
+
+    .apples-contentss .apples-left h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .apples-contentss .apples-right p {
+        font-size: 16px;
+        margin-bottom: 28px !important;
+    }
+
+    .apples-contentss .apples-appeals-list {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+
+    .apples-contentss .apples-gap {
+        display: none;
+    }
+
+    .apples-contentss .apples-consultation-btn {
+        width: 100%;
+        margin-left: 0;
+        padding: 14px;
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .margin-bottom-appleas {
+        margin-bottom: 25px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .apples-contentss .apples-left h2 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    .apples-contentss .apples-right p,
+    .apples-contentss .apples-appeals-list {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .apples-contentss .apples-consultation-btn {
+        padding: 12px 10px;
+    }
+}
+
+/*  end css start second section of content Why You Need An */
+
+/* book free consultation button css start */
+
+.appleas-book-free {
+    background-color: #f6f3f4;
+    padding: 0;
+}
+
+.appleas-book-free .container {
+    border: 1px solid #000;
+    padding: 20px;
+    padding-bottom: 18px;
+    max-width: 1140px;
+}
+
+.appleas-book-free h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #2B161B;
+    margin: 0;
+}
+
+.appleas-book-free p {
+    font-size: 17px;
+    color: #453E3E;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.appleas-book-free .btn-consultation {
+    background-color: #D90700;
+    color: #fff;
+    padding: 8px 25px !important;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 2px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.appleas-book-free .btn-consultation:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.appleas-book-free .row {
+    align-items: flex-start;
+}
+
+@media (max-width: 991px) {
+    .appleas-book-free .container {
+        padding: 30px 20px;
+        margin: 0 15px;
+        width: auto;
+    }
+
+    .appleas-book-free .col-md-4 {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .appleas-book-free h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .appleas-book-free p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+
+    .appleas-book-free .btn-consultation {
+        width: auto;
+        display: inline-block;
+        padding: 10px 30px;
+    }
+
+    .appleas-book-free .text-md-end {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .appleas-book-free .container {
+        margin: 0 1px;
+        padding: 20px 15px;
+        padding-bottom: 0px;
+    }
+
+    .appleas-book-free h2 {
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .appleas-book-free p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .appleas-book-free .btn-consultation {
+        width: 100%;
+        padding: 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* end consoltation here */
+
+/*  Testimonials  css start here*/
+.Testimonials-layour-section {
+
+    padding: 60px 0 10px 0;
+    background-color: #F7F3F5;
+}
+
+.Testimonials-layour-section .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Testimonials-layour-section h2 {
+    font-size: 31px;
+    color: #2B161B;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.Testimonials-layour-section .Testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.Testimonials-layour-section .Testimonial-item {
+    background-color: #F7F3F5;
+    padding: 30px;
+    position: relative;
+}
+
+.Testimonials-layour-section .quote-image {
+    margin-bottom: 20px;
+}
+
+.Testimonials-layour-section .quote-image img {
+    width: 55px;
+    height: 55px;
+    margin-left: -5px;
+}
+
+.Testimonials-layour-section .Testimonial-item blockquote {
+    font-size: 16px;
+    color: #453e3e;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+@media (max-width: 992px) {
+    .Testimonials-layour-section .Testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .Testimonials-layour-section .Testimonial-item {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Testimonials-layour-section {
+        padding: 50px 0 0px 0px;
+    }
+
+    .Testimonials-layour-section h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .Testimonials-layour-section .quote-image img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Testimonials-layour-section .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .Testimonials-layour-section .Testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .Testimonials-layour-section h2 {
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+
+    .Testimonials-layour-section .Testimonial-item {
+        padding: 20px;
+    }
+
+    .Testimonials-layour-section .quote-image {
+        margin-bottom: 15px;
+    }
+}
+
+/* end testimonal css end here  */
+
+
+/* image css start here in appleas section  */
+.apples-image-section {
+    background-color: #F7F3F5;
+    padding: 0;
+}
+
+.apples-image-section .apples-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    background-color: #F7F3F5;
+}
+
+.apples-image-section .apples-image-container {
+    text-align: center;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.apples-image-section .apples-center-image {
+    width: 100%;
+    max-width: 100%;
+    max-height: 70vh;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.apples-image-section .apples-underline {
+    width: 100px;
+    border: none;
+    border-top: 3px solid #000000;
+    margin: 20px auto 0;
+    background: #000000;
+}
+
+@media (max-width: 768px) {
+    .apples-image-section .apples-image {
+        min-height: auto;
+
+        padding: 10px 0;
+
+        height: auto;
+        display: block;
+
+    }
+
+    .apples-image-section .apples-center-image {
+        max-height: 60vh;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .apples-image-section .apples-underline {
+        width: 80px;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .apples-image-section .apples-image {
+        padding: 65px 0;
+
+    }
+
+    .apples-image-section .apples-center-image {
+        max-height: 55vh;
+    }
+
+    .apples-image-section .apples-image-container {
+        padding: 0 10px;
+    }
+}
+
+/* end image css in appleas section  */
+
+
+/* sample cases css start here */
+.apples-sample-cases {
+    padding: 40px 0 20px 0;
+    background-color: #F7F3F5;
+}
+
+.apples-sample-cases .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.apples-sample-cases h2 {
+    font-size: 30px;
+    color: #2B161B;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.apples-sample-cases .apples-cases-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.apples-sample-cases .apples-cases-list li {
+    font-size: 17px;
+    color: black;
+    line-height: 1.4;
+    margin-bottom: 0px;
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.apples-sample-cases .apples-cases-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5em;
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.apples-sample-cases .apples-red-link {
+    color: #EF4D48;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+    .apples-sample-cases {
+        padding: 30px 0 10px 0;
+    }
+
+    .apples-sample-cases h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .apples-sample-cases .apples-cases-list li {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        padding-left: 18px;
+    }
+
+    .apples-sample-cases .apples-cases-list li::before {
+        top: 0.55em;
+        width: 5px;
+        height: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .apples-sample-cases {
+        padding: 40px 0 20px 0;
+    }
+
+    .apples-sample-cases h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .apples-sample-cases .apples-cases-list li {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 3px;
+        padding-left: 16px;
+    }
+
+    .apples-sample-cases .container {
+        width: 95%;
+    }
+
+    .apples-sample-cases .apples-red-link {
+        font-size: 15px;
+    }
+}
+
+/* end sample cases css here */
+/* 4. @@@@@@==== end  Appleas page css  here  ======== @@@@@@@@@@ */

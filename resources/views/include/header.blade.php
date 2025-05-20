@@ -1,8 +1,4 @@
 <style>
-    body {
-        font-family: 'Roboto', sans-serif;
-    }
-
     .advocate-website.container {
         width: 90% !important;
         max-width: 100% !important;
@@ -12,7 +8,7 @@
     }
 
     .navbar {
-        background-color: #2c1315;
+        background: #2b161b;
         padding: 20px 0 !important;
         position: sticky !important;
         top: 0;
@@ -35,7 +31,8 @@
     }
 
     .contact-btn-changeing {
-        background-color: red !important;
+
+        background: #007F3F !important;
         border-radius: 2px;
         font-weight: 500 !important;
         margin-left: 20px;
@@ -43,14 +40,14 @@
     }
 
     .contact-btn-changeing:hover {
-        background-color: #2b161b !important;
+        background: #005e30 !important;
         cursor: pointer;
     }
 
     #contact_button {
         font-size: 14px;
         position: absolute;
-        right: 0;
+        /* right: 0; */
         color: #FFFFFF !important;
     }
 
@@ -210,7 +207,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="advocate-website container px-0">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="images/logo-company.png" alt="Allan Rouben Logo">
+            <img src="images/home-img/logo-company.png" alt="Allan Rouben Logo">
             <div class="navbar-brand-text"></div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -231,8 +228,8 @@
                         Practice Areas
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Appeals</a></li>
-                        <li><a class="dropdown-item" href="#">Litigation</a></li>
+                        <li><a class="dropdown-item" href="{{ route('apeals') }}">Appeals</a></li>
+                        <li><a class="dropdown-item" href="#">Employment Law</a></li>
                         <li><a class="dropdown-item" href="#">Professional Negligence</a></li>
                     </ul>
                 </li>

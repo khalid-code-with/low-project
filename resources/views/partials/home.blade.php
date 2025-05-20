@@ -4,7 +4,6 @@
 
 @section('body-section')
 
-
     <!DOCTYPE html>
     <html lang="en">
 
@@ -13,13 +12,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Home</title>
+
     </head>
 
     <body>
-
-
         {{-- home banner start here --}}
         <section class="layour-home-banner">
+            <div class="banner-background">
+                <img src="/images/home-img/home-banner-img.png" alt="Banner Background" class="banner-img">
+            </div>
             <div class="container">
                 <h1>Experience. Compassion. Integrity.</h1>
                 <h2>Allan Rouben – Toronto Lawyer</h2>
@@ -86,7 +87,7 @@
 
                     <!-- Right Image -->
                     <div class="col-lg-6 text-center law-image">
-                        <img src="{{ asset('images/layour-img.jpg') }}" alt="Lawyer Image" class="img-fluid" />
+                        <img src="{{ asset('/images/home-img/layour-img.jpg') }}" alt="Lawyer Image" class="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -332,7 +333,8 @@
                             provide guidance on the best next steps.</p>
                     </div>
                     <div class="col-md-4 text-md-end">
-                        <a href="#" class="btn btn-consultation change-colorbutton">BOOK A FREE CONSULTATION</a>
+                        <a href="{{ route('contact') }}" class="btn btn-consultation change-colorbutton">BOOK A FREE
+                            CONSULTATION</a>
                     </div>
                 </div>
             </div>
@@ -413,6 +415,7 @@
             </div>
         </section>
         {{-- end  why choose use sectionhere --}}
+
 
     </body>
 

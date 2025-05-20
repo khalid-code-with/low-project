@@ -11,6 +11,9 @@ Route::get('/', [HomeController::class, 'homepage'])->name('home');
 // abouts page
 Route::get('/abouts', [HomeController::class, 'aboutapage'])->name('abouts');
 
+// apeals page
+Route::get('/appleas', [HomeController::class, 'apealspage'])->name('apeals');
+
 // contac page
 Route::get('/contacts', [ContactsController::class, 'contactpage'])->name('contact');
 

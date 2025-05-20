@@ -18,4 +18,8 @@ class HomeController extends Controller
     {
         return view("partials.abouts");
     }
+    public function apealspage()
+    {
+        return view("partials.apeals");
+    }
 }

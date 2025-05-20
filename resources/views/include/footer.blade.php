@@ -10,8 +10,7 @@
     <style>
         .footer {
             padding: 70px 0 45px;
-            background-color: #2c1315;
-            font-family: 'Roboto', sans-serif;
+            background: #2b161b;
         }
 
         .footer .logo {
@@ -50,7 +49,7 @@
         .footer .social-icons a i:hover {}
 
         .footer .btn-red {
-            background-color: red;
+            background: #007F3F !important;
             color: white;
             border-radius: 2px;
             font-weight: 500;
@@ -59,7 +58,7 @@
         }
 
         .footer .btn-red:hover {
-            background-color: #2c1315;
+            background: #005e30 !important;
             color: #FFFFFF;
         }
 
@@ -134,7 +133,7 @@
             <div class="row text-white">
                 <div class="col-md-3 mb-4">
                     <a href="{{ url('/') }}">
-                        <img src="images/logo-company.png" alt="Logo" class="logo img-fluid" />
+                        <img src="images/home-img/logo-company.png" alt="Logo" class="logo img-fluid" />
                     </a>
                     <div class="social-icons d-flex mt-3">
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -151,7 +150,7 @@
 
                 <div class="col-md-3 mb-4 practice-area-shift">
                     <h5>Practice Areas</h5>
-                    <a href="#">Appeals</a>
+                    <a href="{{ route('apeals') }}">Appeals</a>
                     <a href="#">Litigation</a>
                     <a href="#">Employment Law</a>
                     <a href="#">Personal Injury</a>

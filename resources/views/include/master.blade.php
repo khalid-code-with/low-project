@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!--bootstrap css-->
     <link rel="stylesheet" href="{{ asset('css/css/bootstrap.min.css') }}">
+
+    <link rel="icon" href="{{ asset('images/home-img/titile-icon.png') }}" type="image/png">
     {{-- font-awesome --}}
-
-    <link rel="" href="{{ asset('images/titile-icon.png') }}" type="">
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-
     <style>
-        /* whatsapp add our website right side mai  */
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
         .add-whatsapp {
             position: fixed;
             bottom: 20px;
-            right: 20px;
+            right: 24px;
             z-index: 1000;
         }
 
@@ -74,10 +74,27 @@
                 opacity: 0;
             }
         }
+
+
+
+        #preloader {
+            animation: pulseBg 2s infinite alternate;
+        }
+
+        @keyframes pulseBg {
+            from {
+                background-color: #212529;
+            }
+
+            to {
+                background-color: #343a40;
+            }
+        }
     </style>
 </head>
 
 <body>
+
     {{-- whatsapp --}}
     <div class="add-whatsapp">
         <a href="https://wa.me/910000000000?text=Hi" target="_blank" class="whatsapp-btn">
@@ -86,17 +103,13 @@
     </div>
 
     <div id="preloader"
-        style="position: fixed; top:0; left:0; width:100%; height:100%; background:#212529; z-index:9999; display: flex; justify-content: center; align-items: center;">
-        <div>
-            <div class="spinner-border" style="width: 3rem; height: 3rem; color:#ffffff" role="status">
-                <span class="sr-only"></span>
-            </div>
-        </div>
+        style="position: fixed; top:0; left:0; width:100%; height:100%; background:#212529; z-index:9999; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <div class="spinner-border" style="width: 3rem; height: 3rem; color:#ffffff" role="status"></div>
+        <p style="color: white; margin-top: 10px;">Loading...</p>
     </div>
 
     @include('include.header')
     @yield('body-section')
-
     @include('include.footer')
     {{-- bootstarp js --}}
     <script src="{{ asset('js/js/bootstrap.bundle.min.js') }}"></script>
