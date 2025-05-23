@@ -7,6 +7,15 @@ window.addEventListener("load", function () {
 });
 
 // make navbar sticky on scroll with animation
+// window.addEventListener("scroll", function () {
+//     const navbar = document.querySelector(".navbar");
+//     if (window.scrollY > 170) {
+//         navbar.classList.add("shrink");
+//     } else {
+//         navbar.classList.remove("shrink");
+//     }
+// });
+
 window.addEventListener("scroll", function () {
     const navbar = document.querySelector(".navbar");
     if (window.scrollY > 170) {
@@ -15,6 +24,24 @@ window.addEventListener("scroll", function () {
         navbar.classList.remove("shrink");
     }
 });
+
+
+// Scroll to top
+window.onscroll = function () {
+    let btn = document.getElementById("topBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+};
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
 
 // header javascript for drop down
 

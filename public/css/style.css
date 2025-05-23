@@ -45,7 +45,9 @@
 .layour-home-banner h1 {
     font-size: 1.3rem;
     font-weight: 500;
-    color: #d50000;
+    /* color: #d50000; */
+    color: #ffde59;
+    /* instead of red */
     margin-bottom: 20px;
 }
 
@@ -62,7 +64,7 @@
 }
 
 .layour-home-banner .btn-consultation {
-    background-color: #d50000;
+    background-color: #3A7BD5;
     color: white;
     border-radius: 2px;
     font-weight: 500;
@@ -73,7 +75,8 @@
 }
 
 .layour-home-banner .change-banner-color {
-    color: red !important;
+    /* color: red !important; */
+    color: #ffde59 !important;
 }
 
 .btn-consultation a {
@@ -82,7 +85,7 @@
 }
 
 .layour-home-banner .btn-consultation:hover {
-    background-color: #b71c1c;
+    background-color: #2E5CA8;
 }
 
 .layour-home-banner .contact-section {
@@ -148,9 +151,10 @@
     }
 
     .layour-home-banner .btn-consultation {
-        margin-bottom: 40px;
+        margin-bottom: 31px;
         padding: 8px 16px;
         font-size: 0.9rem;
+        margin-top: 23px;
     }
 
     .layour-home-banner .contact-content {
@@ -334,7 +338,8 @@
 }
 
 .Book-Free-consulation .btn-consultation {
-    background-color: #007A33;
+    /* background-color: #007A33; */
+    background-color: #3A7BD5 !important;
     color: #fff;
     padding: 8px 27px;
     font-size: 0.9rem;
@@ -345,19 +350,21 @@
     border-radius: 2px;
     white-space: nowrap;
     transition: all 0.3s ease;
+    border: none;
 }
 
 .Book-Free-consulation .change-colorbutton {
-    background-color: red !important;
+
+    background-color: #3A7BD5 !important;
 }
 
 .Book-Free-consulation .change-colorbutton:hover {
-    background-color: #000000 !important;
+    background-color: #2E5CA8;
 
 }
 
 .Book-Free-consulation .btn-consultation:hover {
-    background-color: #333;
+    background-color: #2E5CA8;
     color: #fff;
 }
 
@@ -571,7 +578,8 @@
 .experience-section-left h1 {
     font-size: 17px;
     font-weight: 500;
-    color: #e53935;
+    /* color: #e53935; */
+    color: #ffde59;
     margin-bottom: 28px;
     line-height: 1.2;
 }
@@ -638,7 +646,8 @@
 
 .stat-label {
     font-size: 17px;
-    color: #e53935;
+    /* color: #e53935; */
+    color: #ffde59;
     line-height: 1.4;
     font-weight: 600;
     margin-bottom: 20px;
@@ -808,7 +817,8 @@
 .why-choose-title {
     font-size: 18px;
     font-weight: 400;
-    color: red;
+    /* color: red; */
+    color: #ffde59;
     margin-bottom: 27px;
     line-height: 1.2;
 }
@@ -824,6 +834,7 @@
     height: 3px;
     width: 100px;
     background-color: #c00;
+
     margin: 30px 0;
 }
 
@@ -872,7 +883,8 @@
 .testimonial-divider {
     height: 0.55px;
     width: 100%;
-    background-color: #c00;
+    background: #ffde59;
+
     margin: 30px 0;
 }
 
@@ -1160,7 +1172,7 @@
 
 .abouts-banner h1 {
     font-size: 43px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 20px;
     color: #ffffff;
 }
@@ -1228,6 +1240,7 @@
     display: inline-block;
     padding: 8px 15px;
     background-color: red;
+    background-color: #3A7BD5;
     color: white;
     font-size: 15px;
     font-weight: 500;
@@ -1235,12 +1248,13 @@
     border-radius: 4px;
     transition: all 0.3s ease;
     text-transform: uppercase;
-    border: 1px solid red;
+    border: 1px solid #3A7BD5;
 }
 
 .consultation-btn:hover {
     background-color: #FFFFFF;
-    color: red;
+
+    color: #4858DB;
 }
 
 
@@ -1310,7 +1324,7 @@
 }
 
 .criminal-layour-section .red-link {
-    color: #EF4D48;
+    color: #4858DB;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -1378,14 +1392,15 @@
 }
 
 .abouts-the-layour-content .section-title-link {
-    color: #EF4D48;
+
+    color: #4858DB;
     text-decoration: none;
     font-weight: 400;
     font-size: 17px;
 }
 
 .abouts-the-layour-content .section-title-link:hover {
-    color: #EF4D48;
+    color: #4858DB;
 }
 
 .abouts-the-layour-content .title-divider {
@@ -1530,7 +1545,8 @@
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 27px;
-    color: #EF4D48;
+    /* color: #EF4D48; */
+    color: #ffde59;
 }
 
 .Committed-To-Helping .title-divider {
@@ -1692,7 +1708,7 @@
 .contact-banner h1 {
     margin-top: 80px;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 20px;
     color: #ffffff;
 }
@@ -1801,10 +1817,10 @@
     min-height: 120px;
 }
 
-
 .Contacts-page-of-layour .submit-btn {
     margin-top: 20px;
-    background: #EF4D48;
+    background-color: #3A7BD5;
+
     color: white;
     border: none;
     padding: 12px 40px;
@@ -1813,7 +1829,7 @@
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-    box-shadow: 0 2px 5px rgba(239, 77, 72, 0.3);
+
     position: relative;
     overflow: hidden;
     letter-spacing: 0.5px;
@@ -1821,9 +1837,8 @@
 }
 
 .Contacts-page-of-layour .submit-btn:hover {
-    background-color: #000000 !important;
+    background-color: #2E5CA8 !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
 }
 
 .Contacts-page-of-layour .submit-btn:active {
@@ -1831,11 +1846,11 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-
 .Contacts-page-of-layour .submit-btn:focus {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(239, 77, 72, 0.4);
+    box-shadow: 0 0 0 3px rgba(58, 123, 213, 0.4);
 }
+
 
 .Contacts-page-of-layour .submit-btn::after {
     content: "";
@@ -1920,16 +1935,17 @@
 
 .Contacts-page-of-layour .contact-detail a {
     text-decoration: none;
-    color: #EF4D48;
+
+    color: #4858DB;
     font-size: 17px;
 }
 
 .Contacts-page-of-layour .red-link {
-    color: #EF4D48;
+    color: #4858DB;
 }
 
 .Contacts-page-of-layour .contact-detail a:hover {
-    color: #EF4D48;
+    color: #4858DB;
 }
 
 /* Social Section */
@@ -1970,7 +1986,7 @@
 }
 
 .Contacts-page-of-layour .social-icon:last-child {
-    background-color: #0077B5;
+    background-color: #1DA1F2;
 }
 
 .Contacts-page-of-layour .social-icon:hover {
@@ -1991,8 +2007,9 @@
     }
 
     .Contacts-page-of-layour .contact-detail p {
-        margin-left: 65px;
+        margin-left: 20px;
     }
+
 
     .moving-leftsmall-devices {
         margin-left: 17px !important;
@@ -2091,7 +2108,7 @@
 .blog-banner h1 {
     margin-top: 80px;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 20px;
     color: #ffffff;
 }
@@ -2144,7 +2161,8 @@
 }
 
 .blog-section-title h2 {
-    color: #ED1C24;
+
+    color: #3A7BD5;
     font-size: 15px;
     font-weight: 600;
     margin: 0 15px;
@@ -2155,7 +2173,8 @@
     display: inline-block;
     width: 50px;
     height: 1.5px;
-    background: #ED1C24;
+    background: #3A7BD5;
+
 }
 
 .blog-row {
@@ -2197,6 +2216,7 @@
 
 .blog-category {
     color: #ED1C24;
+    color: #3A7BD5;
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
@@ -2244,9 +2264,10 @@
 }
 
 .page-number.active {
-    background: #EF4D48;
-    color: #fff;
-    border-color: #EF4D48;
+    background: #3A7BD5;
+    /* color: ; */
+    color: #FFFFFF;
+    background: #3A7BD5;
 }
 
 .page-nav:hover,
@@ -2255,7 +2276,7 @@
 }
 
 .page-number.active:hover {
-    background: #EF4D48;
+    background: #3A7BD5;
 }
 
 @media (max-width: 768px) {
@@ -2364,7 +2385,7 @@
 
 .appeals-banner h1 {
     font-size: 43px;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 20px;
     color: #ffffff;
 }
@@ -2448,7 +2469,7 @@
 }
 
 .highlight-red {
-    color: red;
+    color: #4858DB;
     font-weight: 500;
     text-decoration: none;
 }
@@ -2552,22 +2573,23 @@
 }
 
 .apples-contentss .apples-red-link {
-    color: #EF4D48;
+    color: #4858DB;
     font-weight: 500;
     text-decoration: none;
 }
 
 .red-lind-layour {
     text-decoration: none;
-    color: #EF4D48;
+    /* color: #EF4D48; */
+    color: #4858DB;
 }
 
 .apples-contentss .apples-red-link:hover {
-    color: #f2524c;
+    color: #4858DB;
 }
 
 .apples-contentss .apples-consultation-btn {
-    background-color: #D90700;
+    background-color: #3A7BD5;
     color: #fff;
     padding: 12px 15px;
     font-size: 0.9rem;
@@ -2589,7 +2611,7 @@
 }
 
 .apples-contentss .apples-consultation-btn:hover {
-    background-color: black;
+    background-color: #2E5CA8;
     color: white;
 }
 
@@ -2689,10 +2711,11 @@
 }
 
 .appleas-book-free .btn-consultation {
-    background-color: #D90700;
+
+    background-color: #3A7BD5;
     color: #fff;
-    padding: 8px 25px !important;
-    font-size: 1.2rem !important;
+    padding: 6px 25px !important;
+    font-size: 1.1rem !important;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -2704,7 +2727,7 @@
 }
 
 .appleas-book-free .btn-consultation:hover {
-    background-color: #000;
+    background-color: #2E5CA8;
     color: #fff;
 }
 
@@ -3003,7 +3026,7 @@
 }
 
 .apples-sample-cases .apples-red-link {
-    color: #EF4D48;
+    color: #4858DB;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
@@ -3062,3 +3085,18 @@
 
 /* end sample cases css here */
 /* 4. @@@@@@==== end  Appleas page css  here  ======== @@@@@@@@@@ */
+
+
+
+/* move to top button css */
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}

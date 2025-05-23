@@ -10,7 +10,8 @@
     <style>
         .footer {
             padding: 70px 0 45px;
-            background: #2b161b;
+            background: #06063A;
+            color: #FFFFFF !important;
         }
 
         .footer .logo {
@@ -49,7 +50,7 @@
         .footer .social-icons a i:hover {}
 
         .footer .btn-red {
-            background: #007F3F !important;
+            background-color: #3A7BD5;
             color: white;
             border-radius: 2px;
             font-weight: 500;
@@ -58,9 +59,11 @@
         }
 
         .footer .btn-red:hover {
-            background: #005e30 !important;
+            background-color: #2E5CA8;
             color: #FFFFFF;
         }
+
+
 
         hr.full-width {
             border: none;
@@ -71,7 +74,7 @@
 
         .footer-bottom {
             padding: 45px 0 0;
-            background-color: #2c1315;
+            background: #06063A;
             font-size: 0.9rem;
             margin-bottom: 0;
         }
@@ -143,8 +146,9 @@
 
                 <div class="col-md-3 mb-4">
                     <h5>Contact Detail</h5>
-                    <p>Address: 70 Bond Street, Suite 200, Toronto, Ontario, M5B 1X3</p>
-                    <p><a href="tel:4163605444">Number: 416 360-5444</a></p>
+                    <p>Address: 12, Kalyan Colony, Tonk Phatak, Toronto,
+                        Jaipur - 302015 (Rajasthan)</p>
+                    <p><a href="tel:+91-9414749404">Number: +91-9414749404</a></p>
                     <p>Mon to Fri: 9.00 AM – 5.00 PM</p>
                 </div>
 

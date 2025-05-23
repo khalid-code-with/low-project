@@ -365,7 +365,7 @@
 
                         <div class="testimonial-box">
                             <div class="testimonial-quote">
-                                <img src="{{ asset('images/home-img/double-quote.png') }}" alt="Quote icon"
+                                <img src="{{ asset('images/home-img/double-quote-icon.png') }}" alt="Quote icon"
                                     class="quote-icon">
                             </div>
                             <p class="testimonial-text">
@@ -391,7 +391,7 @@
 
                         <div class="testimonial-box">
                             <div class="testimonial-quote">
-                                <img src="{{ asset('images/home-img/double-quote.png') }}" alt="Quote icon"
+                                <img src="{{ asset('images/home-img/double-quote-icon.png') }}" alt="Quote icon"
                                     class="quote-icon">
                             </div>
                             <p class="testimonial-text">

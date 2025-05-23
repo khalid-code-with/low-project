@@ -41,23 +41,26 @@
                             <form class="contact-form">
                                 <div class="form-group">
                                     <label for="name">Name <span class="required-star">(Required)</span></label>
-                                    <input type="text" id="name" class="form-control" placeholder="">
+                                    <input type="text" id="name" class="form-control" placeholder="Enter your name">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="phone">Phone Number <span class="required-star">(Required)</span></label>
-                                    <input type="tel" id="phone" class="form-control" placeholder="">
+                                    <input type="tel" id="phone" class="form-control"
+                                        placeholder="Enter your number">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="email">Email <span class="required-star">(Required)</span></label>
-                                    <input type="email" id="email" class="form-control" placeholder="">
+                                    <input type="email" id="email" class="form-control"
+                                        placeholder="Enter your email">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="message">How can Allan help? <span
                                             class="required-star">(Required)</span></label>
-                                    <textarea id="message" class="form-control" rows="4" placeholder=""></textarea>
+                                    <textarea id="message" class="form-control" rows="4"
+                                        placeholder="Please Provide briefly description of your case"></textarea>
                                 </div>
 
                                 <button type="submit" class="submit-btn">Submit</button>
@@ -79,13 +82,18 @@
                             </div>
 
                             <div class="contact-detail mb-4">
-                                <p><b class="increse-font-size">Address:</b><br>70 Bond Street Suite 200<br>Toronto,
-                                    Ontario, M5B 1X3</p>
+                                <p><b class="increse-font-size">Address:</b><br>12, Kalyan Colony, Tonk Phatak, <br>Toronto,
+                                    Jaipur - 302015 (Rajasthan)</p>
                             </div>
+                            {{-- <div class="contact-detail mb-4">
+                                <p><b class="increse-font-size">Office:</b><br>Chamber No. 206, E-Block, Rajasthan <br>High
+                                    Court, Jaipur</p>
+                            </div> --}}
 
                             <div class="contact-detail" style="margin-bottom:0px;">
-                                <p><b class="increse-font-size">Number:</b> <a href="tel:4163605444" class="red-link">416
-                                        360-5444</a></p>
+                                <p><b class="increse-font-size">Number:</b>
+                                    <a href="tel:+91-9414749404" class="red-link">+91-9414749404</a>
+                                </p>
                             </div>
 
                             <div class="contact-detail" style="margin-bottom:0px;">
@@ -93,9 +101,12 @@
                                         365-7702</a></p>
                             </div>
 
+
                             <div class="contact-detail" style="margin-bottom:0px;">
-                                <p><b class="increse-font-size">Email:</b> <a href="mailto:allan@allanrouben.com"
-                                        class="red-link">allan@allanrouben.com</a></p>
+                                <p><b class="increse-font-size">Email:</b>
+                                    <a href="mailto:poonamjainadv1984@gmail.com"
+                                        class="red-link">poonamjainadv1984@gmail.com</a>
+                                </p>
                             </div>
 
                             <div class="social-section">
@@ -124,11 +135,14 @@
         <section class="map-section">
             <div class="container">
                 <div class="law-map">
+
+
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25239.270619089377!2d-122.44065652568361!3d37.745283100000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2def4ff7cd%3A0x3b8fcf69b54821ae!2sHayasa%20Flooring%20Design%2C%20Inc!5e0!3m2!1sen!2sin!4v1747370606260!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.082648114964!2d75.79799076020998!3d26.90087201050338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db58b677fa313%3A0x2bec6527878ad77a!2sRajasthan%20High%20Court%20E-Block%20Building!5e0!3m2!1sen!2sin!4v1747997620428!5m2!1sen!2sin"
                         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
+
                 </div>
         </section>
     </body>

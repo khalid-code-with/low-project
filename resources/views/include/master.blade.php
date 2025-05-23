@@ -94,13 +94,16 @@
 </head>
 
 <body>
-
     {{-- whatsapp --}}
     <div class="add-whatsapp">
         <a href="https://wa.me/910000000000?text=Hi" target="_blank" class="whatsapp-btn">
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>
+
+    {{-- Scroll to top --}}
+    <img src="{{ asset('images/home-img/scroll-on-top-icon.png') }}" onclick="scrollToTop()" id="topBtn"
+        alt="Scroll to top" />
 
     <div id="preloader"
         style="position: fixed; top:0; left:0; width:100%; height:100%; background:#212529; z-index:9999; display: flex; justify-content: center; align-items: center; flex-direction: column;">

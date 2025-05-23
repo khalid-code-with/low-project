@@ -36,7 +36,8 @@
                     <div class="col-md-4 col-12">
                         <div class="feature-box">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/abouts-img/membership-icon.png') }}" alt="Defining Success Icon">
+                                <img src="{{ asset('images/home-img/define-success-img.jpg') }}" alt="Defining Success Icon"
+                                    style="width: 60px" height="180px">
                             </div>
                             <h3>Defining Success</h3>
                             <p>Allan will vigorously and persistently advocate for your <a href="#"

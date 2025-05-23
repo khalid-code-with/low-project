@@ -8,7 +8,8 @@
     }
 
     .navbar {
-        background: #2b161b;
+        /* background: #2b161b; */
+        background: #06063A;
         padding: 20px 0 !important;
         position: sticky !important;
         top: 0;
@@ -31,8 +32,9 @@
     }
 
     .contact-btn-changeing {
-
-        background: #007F3F !important;
+        /* background: #007F3F !important; */
+        background-color: #3A7BD5;
+        color: #0B1F3A !important;
         border-radius: 2px;
         font-weight: 500 !important;
         margin-left: 20px;
@@ -40,7 +42,7 @@
     }
 
     .contact-btn-changeing:hover {
-        background: #005e30 !important;
+        background-color: #2E5CA8;
         cursor: pointer;
     }
 
@@ -135,24 +137,36 @@
     }
 
     .navbar-nav .nav-link:hover {
-        color: red !important;
+        color: #d4ac4c !important;
     }
 
+
+    /* on scrolling handle drop down margin top */
     .dropdown-menu {
-        background-color: #2c1315 !important;
-        border-top: 2px solid red;
-        margin-top: 40 !important;
+        background: #06063A;
+        border-top: 2px solid #C4A356 !important;
+        margin-top: 40px !important;
+        transition: margin-top 0.3s ease;
     }
+
+    .navbar.shrink .dropdown-menu {
+        margin-top: 20px !important;
+    }
+
 
     .dropdown-item {
-        color: white !important;
-        font-weight: 600;
+        color: #FFFFFF !important;
         padding: 15px 25px !important;
     }
 
     .dropdown-item:hover {
-        background-color: #2c1315 !important;
-        color: red !important;
+        background-color: #C4A356;
+        color: #0B1F3A;
+    }
+
+    .nav-link.active,
+    .dropdown-item.active {
+        color: #d4ac4c !important;
     }
 
     .navbar-brand {
@@ -196,11 +210,6 @@
     .navbar .dropdown-menu .dropdown-item:active {
         outline: none !important;
         box-shadow: none !important;
-    }
-
-    .nav-link.active,
-    .dropdown-item.active {
-        color: red !important;
     }
 </style>
 
